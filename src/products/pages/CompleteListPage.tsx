@@ -1,7 +1,7 @@
 import { ProductList, useProducts } from '..';
 
 export const CompleteListPage = () => {
-  const { isLoading, products } = useProducts({});
+  const {  products } = useProducts({});
 
   return (
     <div className="flex-col">
